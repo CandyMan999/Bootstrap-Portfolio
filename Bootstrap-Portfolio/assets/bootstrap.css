@@ -1,0 +1,52 @@
+.navbar {
+    border-bottom: 2px solid lightgray;
+    
+
+}
+.container {
+    width: 100%;
+}
+
+.navbar-brand {
+    color:#16b5ce;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+.teal {
+    background-color:#16b5ce;
+}
+
+.nav-item { 
+    border-right: 2px solid lightgrey;
+}
+
+
+.nav-item:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.nav-link{
+    color: lightgrey;
+}
+
+.pic {
+    height: 150px;
+    width: 250px;
+}
+
+.card-img {
+    height: 150px;
+    width: 290px;
+}
+
+body {
+    background: url('../assets/trop.jpg');
+}
+
+.square {
+    background: white;
+}
