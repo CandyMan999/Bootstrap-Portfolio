@@ -17,6 +17,11 @@ html {
     text-align: center;
     
   }
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
   
   
   /* Custom page CSS
@@ -24,7 +29,7 @@ html {
   /* Not required for template or sticky footer method. */
   
   .contain-foot {
-    width: auto;
-    max-width: 680px;
+    width: 100%;
+    
     padding: 0 15px;
   }
