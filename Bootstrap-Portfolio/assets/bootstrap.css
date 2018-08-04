@@ -1,5 +1,6 @@
 .navbar {
     border-bottom: 2px solid lightgray;
+    background: #16b5ce;
     
 
 }
@@ -8,8 +9,8 @@
 }
 
 .navbar-brand {
-    color:#16b5ce;
-    background-color: white;
+    color:white;
+   
     margin-left: 20px;
     position: absolute;
     height: 100%;
@@ -84,5 +85,18 @@
 }
 .fa-linkedin-square:hover {
     cursor: pointer;
+    color: darkgrey;
+}
+.navbar-brand {
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+}
+
+.navbar-brand:hover {
+    color: darkgrey;
+    text-shadow: 2px 2px white;
+}
+
+.nav-link:hover {
     color: darkgrey;
 }
