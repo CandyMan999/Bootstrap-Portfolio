@@ -54,6 +54,7 @@
 
 .square {
     background: white;
+    margin-bottom: 20%;
 }
 
 .col-md-4 {
@@ -100,3 +101,17 @@
 .nav-link:hover {
     color: darkgrey;
 }
+.icon{
+    font-size: 48px;
+}
+
+@media (max-width: 475px) {
+    .icon {
+          font-size: 25px;   
+         }
+    .copy {
+          font-size: 15px;
+    }    
+    }  
+
+   
