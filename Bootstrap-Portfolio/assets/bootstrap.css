@@ -1,117 +1,151 @@
 .navbar {
-    border-bottom: 2px solid lightgray;
-    background: #16b5ce;
-    
-
+  border-bottom: 2px solid lightgray;
+  background: #16b5ce;
 }
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-brand {
-    color:white;
-   
-    margin-left: 20px;
-    position: absolute;
-    height: 100%;
-    font-size: 30px;
-}
+  color: white;
 
+  margin-left: 20px;
+  position: absolute;
+  height: 100%;
+  font-size: 30px;
+}
 
 .teal {
-    background-color:#16b5ce;
+  background-color: #16b5ce;
 }
 
-.nav-item { 
-    border-right: 2px solid lightgrey;
+.nav-item {
+  border-right: 2px solid lightgrey;
 }
-
 
 .nav-item:last-child {
-    border-right: none;
-    padding-right: 0;
-    margin-right: 0;
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
 }
 
-.nav-link{
-    color: lightgrey;
+.nav-link {
+  color: lightgrey;
 }
 
 .pic {
-    height: 150px;
-    width: 250px;
-    border: solid #16b5ce;
+  height: 150px;
+  width: 250px;
+  border: solid #16b5ce;
 }
-
 
 .card-img {
-    height: 150px;
-    width: 100%;
-    box-shadow: 2px 2px 0px #16b5ce;;
+  height: 150px;
+  width: 100%;
+  box-shadow: 2px 2px 0px #16b5ce;
 }
 
-
-
 .square {
-    background: white;
-    margin-bottom: 20%;
+  background: white;
+  margin-bottom: 20%;
 }
 
 .col-md-4 {
-    margin: 5px;
+  margin: 5px;
 }
 
 .square {
-    opacity: .8;
-    background-color: lightgrey;
-    box-shadow: 2px 2px 0px #888888;
+  opacity: 0.8;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 0px #888888;
 }
 
 .fa-github {
-    color: white;
-    margin: 5px;
+  color: white;
+  margin: 5px;
 }
 .fa-linkedin-square {
-    margin: 5px;
-    color: white;
-    
+  margin: 5px;
+  color: white;
 }
 
 .contain-foot {
-    width: 100%;
+  width: 100%;
 }
 .fa-github:hover {
-    cursor: pointer;
-    color: darkgrey;
+  cursor: pointer;
+  color: darkgrey;
 }
 .fa-linkedin-square:hover {
-    cursor: pointer;
-    color: darkgrey;
+  cursor: pointer;
+  color: darkgrey;
 }
 .navbar-brand {
-    color: white;
-    text-shadow: 2px 2px darkgrey;
+  color: white;
+  text-shadow: 2px 2px darkgrey;
 }
 
 .navbar-brand:hover {
-    color: darkgrey;
-    text-shadow: 2px 2px white;
+  color: darkgrey;
+  text-shadow: 2px 2px white;
 }
 
 .nav-link:hover {
-    color: darkgrey;
+  color: darkgrey;
 }
-.icon{
-    font-size: 48px;
+.icon {
+  font-size: 48px;
+}
+#burger {
+  float: right;
+}
+#weather {
+  float: right;
+}
+#friend {
+  float: right;
+  color: #16b5ce;
+}
+
+#friend:hover {
+  color: darkgray;
+}
+
+#guru {
+  float: right;
+}
+
+#hangman {
+  float: right;
+  color: #16b5ce;
+}
+#hangman:hover {
+  color: darkgray;
+}
+
+#crystal {
+  float: right;
+}
+
+#trivia {
+  float: right;
+}
+#rock {
+  float: right;
+}
+#giphy {
+  float: right;
+  color: #16b5ce;
+}
+#giphy:hover {
+  color: darkgray;
 }
 
 @media (max-width: 475px) {
-    .icon {
-          font-size: 25px;   
-         }
-    .copy {
-          font-size: 15px;
-    }    
-    }  
-
-   
+  .icon {
+    font-size: 25px;
+  }
+  .copy {
+    font-size: 15px;
+  }
+}
