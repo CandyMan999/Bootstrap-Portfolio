@@ -45,3 +45,15 @@ $("#rock").on("click", function() {
 $("#giphy").on("click", function() {
   window.location = "https://github.com/CandyMan999/giphy-API";
 });
+
+$("#aol").on("click", function() {
+  window.location = "https://github.com/CandyMan999/chitChat-react";
+});
+
+$("#mongo-scraper").on("click", function() {
+  window.location = "https://github.com/CandyMan999/NewYorkTimes-Scraper";
+});
+
+$("#clicky").on("click", function() {
+  window.location = "https://github.com/CandyMan999/clickyGame-react";
+});

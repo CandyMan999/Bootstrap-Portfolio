@@ -133,11 +133,17 @@
 #rock {
   float: right;
 }
-#giphy {
+#giphy,
+#aol,
+#mongo-scraper,
+#clicky {
   float: right;
   color: #16b5ce;
 }
-#giphy:hover {
+#giphy:hover,
+#aol:hover,
+#mongo-scraper:hover,
+#clicky:hover {
   color: darkgray;
 }
 
